@@ -1,0 +1,62 @@
+<form id="form298" data-ajax="false" novalidate>
+    <div class="fieldcontain" id="fieldcontain-text-1">
+        <label for="form-text-1">Reference</label>
+        <input name="form-text-1" id="form-text-1" type="text" required="" placeholder="" maxlength="10" value="AC_noise_preliminary" >
+    </div>
+    <div class="fieldcontain" id="fieldcontain-select-1">
+        <fieldset>
+            <legend>How high?</legend>
+            <select id="form-select-1" required="">
+                <option value=""></option>
+                <option value="Very high">Very high</option>
+                <option value="High">High</option>
+                <option value="Low">Low</option>
+                <option value="Very low">Very low</option>
+                <option value="Did not see it">Did not see it</option>
+            </select>
+        </fieldset>
+    </div>
+    <div class="fieldcontain" id="fieldcontain-select-2">
+        <fieldset>
+            <legend>How loud?</legend>
+            <select id="form-select-2" required="">
+                <option value=""></option>
+                <option value="Very quiet">Very quiet</option>
+                <option value="Quiet">Quiet</option>
+                <option value="Moderate">Moderate</option>
+                <option value="Loud">Loud</option>
+                <option value="Very loud">Very loud</option></select>
+        </fieldset>
+    </div>
+    <div class="fieldcontain" id="fieldcontain-select-3">
+        <fieldset>
+            <legend>What aircraft type?</legend>
+            <select id="form-select-3" required="">
+                <option value=""></option>
+                <option value="Jet airliner">Jet airliner</option>
+                <option value="Turboprop airliner">Turboprop airliner</option>
+                <option value="Light aircraft (single engine)">Light aircraft (single engine)</option>
+                <option value="Light aircraft (multi engine)">Light aircraft (multi engine)</option>
+                <option value="Microlight">Microlight</option>
+                <option value="Helicopter">Helicopter</option>
+                <option value="Fast jet (military)">Fast jet (military)</option>
+                <option value="Transport (military)">Transport (military)</option>
+                <option value="Historic aircraft">Historic aircraft</option>
+                <option value="Balloon or glider">Balloon or glider</option>
+                <option value="Other">Other</option>
+                <option value="Did not see it">Did not see it</option></select>
+        </fieldset>
+    </div>
+    <div class="fieldcontain" id="fieldcontain-textarea-1">
+        <label for="form-textarea-1">Notes</label>
+        <textarea name="form-textarea-1" id="form-textarea-1" placeholder="Add any additional notes here" ></textarea>
+    </div>
+    <div id="test-buttons" class="fieldcontain ui-grid-a">
+        <div class="ui-block-a">
+            <input type="submit" name="record" id="298_record" value="Save">
+        </div>
+        <div class="ui-block-b">
+            <input type="button" name="cancel" id="298_cancel" value="Cancel">
+        </div>
+    </div>
+</form>
